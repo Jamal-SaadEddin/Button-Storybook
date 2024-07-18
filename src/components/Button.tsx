@@ -4,7 +4,7 @@ import "./Button.css";
 type ButtonProps = {
   variant: "primary" | "secondary" | "text";
   size: "small" | "medium" | "large";
-  color: string;
+  color: "#dc3545" | "#007bff" | "#28a745";
   children: React.ReactNode;
 };
 
